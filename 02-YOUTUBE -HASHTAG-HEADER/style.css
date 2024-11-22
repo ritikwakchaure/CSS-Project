@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.hashtag-header {
+    background-color:rgb(7,96,213) ;
+    height: 170px;
+    padding: 4rem;
+    color: white;
+    background-image: url(/images/background.png);
+    background-size: 260px;
+    background-position-x: 100%;
+    background-position-y: -160px;
+    background-repeat: no-repeat;
+    
+}
+
+.hashtag-header h1 {
+    margin: 0;
+    margin-bottom: 1rem;
+    font: 4rem;
+}
+
+.hashtag-header span {
+    font-size: 1.5rem ;
+}
+
+.hashtag-header img {
+    width: 4rem;
+    height: 4rem;
+    border:5px solid white;
+    border-radius: 100%;
+    vertical-align: middle;
+   
+}
+
+img +img {
+    margin-left: -1rem;
+}
